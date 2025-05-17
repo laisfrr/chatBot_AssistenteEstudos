@@ -30,7 +30,7 @@ cd Desafio_chat_bot
 #### Windows (cmd)
 ```cmd
 python -m venv venv
-venv\Scripts\activate
+venv/Scripts/activate
 ```
 
 #### Git Bash ou MINGW64
