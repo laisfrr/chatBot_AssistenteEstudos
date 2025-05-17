@@ -2,6 +2,9 @@
 
 Este projeto é um chatbot interativo com foco em educação. Ele usa a API do **Google Generative AI (Gemini)** para explicar conteúdos de forma simples, com exemplos e perguntas de fixação.
 
+- Interface web com [Streamlit](https://streamlit.io)
+- Interface por terminal
+
 ---
 
 ## 📁 Estrutura do Projeto
@@ -20,6 +23,7 @@ Desafio_chat_bot/
 ## 🚀 Como Executar o Projeto
 
 ### 1. Clone o repositório
+
 ```bash
 git clone https://github.com/seu-usuario/Desafio_chat_bot.git
 cd Desafio_chat_bot
@@ -28,12 +32,14 @@ cd Desafio_chat_bot
 ### 2. Crie e ative o ambiente virtual
 
 #### Windows (cmd)
+
 ```cmd
 python -m venv venv
 venv\Scripts\activate
 ```
 
 #### Git Bash ou MINGW64
+
 ```bash
 python -m venv venv
 source venv/Scripts/activate
@@ -42,6 +48,7 @@ source venv/Scripts/activate
 ---
 
 ### 3. Instale as dependências
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -59,8 +66,9 @@ GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY_AQUI
 ---
 
 ### 5. Executando o Chatbot no terminal
+
 ```bash
-python main.py
+python terminal_chatbot.py
 ```
 
 ---
@@ -110,7 +118,7 @@ O navegador abrirá com a interface do chatbot.
 Informe o tema que deseja estudar: Revolução Francesa
 
 Resposta do assistente:
-"A Revolução Francesa foi um grande evento que mudou a França. Ela aconteceu porque o povo estava cansado de pagar muitos impostos (...)" 
+"A Revolução Francesa foi um grande evento que mudou a França. Ela aconteceu porque o povo estava cansado de pagar muitos impostos (...)"
 
 Agora é sua vez! Responda às perguntas do assistente.
 Resposta 1:
@@ -119,14 +127,17 @@ Resposta 1:
 ---
 
 ## 🛑 Para sair do chatbot
+
 Digite `sair` quando for solicitado um novo tema.
 
 ---
 
 ## ⚠️ Aviso
+
 Não comite o arquivo `.env` com sua chave pessoal. O `.gitignore` já está configurado para isso.
 
 ---
 
 ## 📄 Licença
+
 Este projeto é apenas para fins educacionais.
