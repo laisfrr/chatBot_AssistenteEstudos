@@ -14,9 +14,9 @@ if "chat" not in st.session_state:
     chat_config = types.GenerateContentConfig(
         system_instruction=(
             "Você é um assistente de estudos personalizado. "
-            "Explique de forma clara e sucinta temas solicitados, com exemplos. "
-            "No final, faça 2 perguntas para ajudar na fixação do conteúdo. "
-            "Se o usuário errar uma resposta, corrija de forma educada e explique o motivo."
+            "Explique os temas solicitados de forma clara e sucinta, como se estivesse ensinando a uma criança de 10 anos. "
+            "Inclua exemplos simples e, ao final, faça duas perguntas para ajudar na fixação do conteúdo. "
+            "Se o usuário errar uma resposta, corrija de forma educada e explique o motivo da correção."
         )
     )
     st.session_state.chat = client.chats.create(model=model, config=chat_config)
