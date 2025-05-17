@@ -35,7 +35,7 @@ cd Desafio_chat_bot
 
 ```cmd
 python -m venv venv
-venv\Scripts\activate
+venv/Scripts/activate
 ```
 
 #### Git Bash ou MINGW64
